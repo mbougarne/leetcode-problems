@@ -1,11 +1,11 @@
-import assert from "node:assert";
-import test from "node:test";
 import { numTilePossibilities } from "../src/problems/p_1079";
 
-test("LeetCode 1079 - Letter Tile Possibilities", () => {
-  assert.strictEqual(numTilePossibilities("AAB"), 8);
-  assert.strictEqual(numTilePossibilities("ABC"), 15);
-  assert.strictEqual(numTilePossibilities("A"), 1);
-
-  console.log("✅ All test cases passed!");
-});
+describe("", () => {
+  test("LeetCode 1079 - Letter Tile Possibilities", () => {
+    expect(numTilePossibilities("AAB")).toBe(8);
+    expect(numTilePossibilities("ABC")).toBe(15);
+    expect(numTilePossibilities("A")).toBe(1);
+  
+    console.log("✅ All test cases passed!");
+  });
+})
